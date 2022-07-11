@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Andre's E-Portfolio</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" >More about me</a></li>
+						<li><a href="generic2.html">Leadership and Community Service</a></li>
+						<li><a href="generic3.html">CCA and Achievements</a></li>
+						<li><a href="elements.html" class="active">Projects</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Projects</h1>
+<!-- Text -->
+<section>
+	<h2>Dice roller</h2>
+	<p>The dice roller was my first ever project I coded using python. Initially, I had no idea how to even start a project. So I look up youtube tutorials on how to start a coding project. Through youtube and trying to figure out how to code by myself I managed to code a dice roller in a day.
+	</p>
+	<hr />
+	<p>While coding the dice roller, I encountered certain issues which prevented it from running in the terminal such as spacing and declaring the wrong variable.
+		While coding the dice roller, I encountered certain issues which prevented it from running in the terminal such as spacing and declaring the wrong variable. It took me a while as I tried to figure it out on my own without referring for help and after coding the whole code all over again meticulously, It was able to run in the terminal.</p>
+
+	<h3>Source Code</h3>
+<pre><code>while True:
+import random
+print("Dice Roller")
+print("press enter to roll dice")
+input()
+number = random.randint(1, 6)
+if number == 1:
+print("[--------------------------]")
+print("[                          ]")
+print("[             0            ]")
+print("[                          ]")
+print("[--------------------------]")
+if number == 2:
+print("[--------------------------]")
+print("[                          ]")
+print("[         0       0        ]")
+print("[                          ]")
+print("[--------------------------]")
+if number == 3:
+print("[--------------------------]")
+print("[                          ]")
+print("[        0   0   0         ]")
+print("[                          ]")
+print("[--------------------------]")
+if number == 4:
+print("[--------------------------]")
+print("[        0        0        ]")
+print("[                          ]")
+print("[        0        0        ]")
+print("[--------------------------]")
+if number == 5:
+print("[--------------------------]")
+print("[        0        0        ]")
+print("[             0            ]")
+print("[        0        0        ]")
+print("[--------------------------]")
+if number == 6:
+print("[--------------------------]")
+print("[        0        0        ]")
+print("[        0        0        ]")
+print("[        0        0        ]")
+print("[--------------------------]")</code></pre>
+</section>
+
+							<!-- Text -->
+								<section>
+									<h2>Random Password Generator</h2>
+									<p>The random password generator was my second project I had coded. Using what I had learn from my first project, I had a relatively easy time coding the random password generator. </p>
+									<hr />
+									<p>Although it was easier to code my second project. I still had a few problems while coding the password generator as there were many instances where the code wouldn't run in the terminal due to syntax errors and undeclared variables. However, after carefully looking through the code I managed to find out certain errors such as the wrong punctuation and forgetting to put a bracket between variables. Eventually, I was able to get the code to run.</p>
+								
+									<h3>Source Code</h3>
+									<pre><code>import random
+
+chars = "abcdefghijklmnopqrstuvwxyzABCDEFHIGJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*(')"
+										
+while 1:
+password_len = int(input("what length would you want your password to be?: "))
+ password_count = int(input("how many passwords would you like?: "))
+ for x in range(0, password_count):
+ password = ""
+for x in range(0, password_len):
+ password_char = random.choice(chars)
+ password = password + password_char
+ print("Here is your password :", password)</code></pre>
+								</section>
+
+
+
+							
+							<!-- Image -->
+								<section>
+									<h2>Website E-Portfolio</h2>
+									<h3></h3>
+									<div class="box alt">
+										<div class="row gtr-uniform">
+											
+										</div>
+									</div>
+									
+									<p><span class="image left"><img src="images/gif2.gif" alt="" /></span>Using an HTML template I found on HTML5 Up, I open the downloaded file with visual studio code. It would be my first time coding a website apart from when I tried to code an HTML website using the notepad application when I was younger. Using my knowledge I had about websites when messing around with websites using inspect element. I had alot of fun figuring out what goes where and how to code the website like how I wanted it.</p>
+									<p><span class="image right"><img src="images/gif3.gif" alt="" /></span>While coding, I realised there were many limitations regarding the website template. Therefore I had to think outside the box and try to figure out how to get the website to look how I wanted to. After messing with a copy of the website template, I was able to code a decent looking website. It took me a little while to code the website as I prefer not to refer for help. I'd prefer to figure out on my own and then work it out my way.</p>
+								</section>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
